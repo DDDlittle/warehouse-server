@@ -2,14 +2,16 @@
 // Do not modify this file!!!!!!!!!
 
 import 'egg';
-import ExportHome = require('../../../app/controller/home');
-import ExportMost = require('../../../app/controller/most');
+import ExportMenus = require('../../../app/controller/menus');
+import ExportRoles = require('../../../app/controller/roles');
 import ExportUser = require('../../../app/controller/user');
+import ExportUsers = require('../../../app/controller/users');
 
 declare module 'egg' {
   interface IController {
-    home: ExportHome;
-    most: ExportMost;
+    menus: ExportMenus;
+    roles: ExportRoles;
     user: ExportUser;
+    users: ExportUsers;
   }
 }
