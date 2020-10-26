@@ -1,0 +1,181 @@
+2020-09-27 19:23:36,948 ERROR 11864 [-/127.0.0.1/-/19ms POST /login] nodejs.ReferenceError: response is not defined
+    at UserController.login (D:\study\homework\admin\app\controller\user.js:12:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\study\homework\admin\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\study\homework\admin\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\study\homework\admin\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\study\homework\admin\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\study\homework\admin\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\study\homework\admin\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\study\homework\admin\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\study\homework\admin\node_modules\koa-static-cache\index.js:39:63
+
+pid: 11864
+hostname: DESKTOP-QG94G1N
+
+2020-09-27 19:23:40,048 ERROR 11864 [-/127.0.0.1/-/10ms POST /login] nodejs.ReferenceError: response is not defined
+    at UserController.login (D:\study\homework\admin\app\controller\user.js:12:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\study\homework\admin\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\study\homework\admin\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\study\homework\admin\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\study\homework\admin\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\study\homework\admin\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\study\homework\admin\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\study\homework\admin\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\study\homework\admin\node_modules\koa-static-cache\index.js:39:63
+
+pid: 11864
+hostname: DESKTOP-QG94G1N
+
+2020-09-27 19:23:41,240 ERROR 11864 [-/127.0.0.1/-/6ms POST /login] nodejs.ReferenceError: response is not defined
+    at UserController.login (D:\study\homework\admin\app\controller\user.js:12:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\study\homework\admin\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\study\homework\admin\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\study\homework\admin\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\study\homework\admin\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\study\homework\admin\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\study\homework\admin\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\study\homework\admin\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\study\homework\admin\node_modules\koa-static-cache\index.js:39:63
+
+pid: 11864
+hostname: DESKTOP-QG94G1N
+
+2020-09-27 19:39:16,253 ERROR 17516 [-/127.0.0.1/-/4ms POST /userInfo] nodejs.ReferenceError: aervice is not defined
+    at UserController.userInfo (D:\study\homework\admin\app\controller\user.js:27:20)
+    at Object.callFn (D:\study\homework\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\study\homework\admin\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\study\homework\admin\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\study\homework\admin\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\study\homework\admin\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 17516
+hostname: DESKTOP-QG94G1N
+
+2020-09-27 19:40:51,196 ERROR 17516 [-/127.0.0.1/-/2ms POST /userInfo] nodejs.ReferenceError: aervice is not defined
+    at UserController.userInfo (D:\study\homework\admin\app\controller\user.js:27:20)
+    at Object.callFn (D:\study\homework\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\study\homework\admin\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\study\homework\admin\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\study\homework\admin\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\study\homework\admin\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 17516
+hostname: DESKTOP-QG94G1N
+
+2020-09-27 19:42:12,650 ERROR 16420 [-/127.0.0.1/-/5ms POST /userInfo] nodejs.ReferenceError: service is not defined
+    at UserController.userInfo (D:\study\homework\admin\app\controller\user.js:27:20)
+    at Object.callFn (D:\study\homework\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\study\homework\admin\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\study\homework\admin\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\study\homework\admin\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\study\homework\admin\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 16420
+hostname: DESKTOP-QG94G1N
+
+2020-09-28 15:14:04,115 ERROR 2820 [-/127.0.0.1/-/5ms POST /logout] nodejs.ReferenceError: ctx is not defined
+    at UserController.logout (D:\study\homework\admin\app\controller\user.js:38:5)
+    at Object.callFn (D:\study\homework\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\study\homework\admin\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\study\homework\admin\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\study\homework\admin\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\study\homework\admin\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2820
+hostname: DESKTOP-QG94G1N
+
+2020-09-28 15:14:07,359 ERROR 2820 [-/127.0.0.1/-/2ms POST /logout] nodejs.ReferenceError: ctx is not defined
+    at UserController.logout (D:\study\homework\admin\app\controller\user.js:38:5)
+    at Object.callFn (D:\study\homework\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\study\homework\admin\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\study\homework\admin\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\study\homework\admin\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\study\homework\admin\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2820
+hostname: DESKTOP-QG94G1N
+
+2020-09-28 15:14:10,010 ERROR 2820 [-/127.0.0.1/-/1ms POST /logout] nodejs.ReferenceError: ctx is not defined
+    at UserController.logout (D:\study\homework\admin\app\controller\user.js:38:5)
+    at Object.callFn (D:\study\homework\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\study\homework\admin\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\study\homework\admin\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\study\homework\admin\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\study\homework\admin\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2820
+hostname: DESKTOP-QG94G1N
+
+2020-09-28 15:14:11,912 ERROR 2820 [-/127.0.0.1/-/4ms POST /logout] nodejs.ReferenceError: ctx is not defined
+    at UserController.logout (D:\study\homework\admin\app\controller\user.js:38:5)
+    at Object.callFn (D:\study\homework\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\study\homework\admin\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\study\homework\admin\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\study\homework\admin\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\study\homework\admin\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2820
+hostname: DESKTOP-QG94G1N
+
+2020-09-28 15:14:41,171 ERROR 2820 [-/127.0.0.1/-/2ms POST /logout] nodejs.ReferenceError: ctx is not defined
+    at UserController.logout (D:\study\homework\admin\app\controller\user.js:38:5)
+    at Object.callFn (D:\study\homework\admin\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\study\homework\admin\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\study\homework\admin\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\study\homework\admin\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\study\homework\admin\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\study\homework\admin\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2820
+hostname: DESKTOP-QG94G1N
+
+2020-09-28 18:00:05,971 ERROR 11216 nodejs.ClusterClientNoResponseError: client no response in 1760382ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\study\homework\admin\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 11216
+hostname: DESKTOP-QG94G1N
+
+2020-10-12 14:36:44,656 ERROR 16000 nodejs.ClusterClientNoResponseError: client no response in 11513099ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\study\homework\admin\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16000
+hostname: DESKTOP-QG94G1N
+
